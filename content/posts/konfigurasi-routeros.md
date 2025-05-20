@@ -1,6 +1,6 @@
 +++
 date = '2025-05-20T14:26:56Z'
-draft = true
+draft = false
 title = 'Tutorial Konfigurasi RouterOS'
 +++
 
