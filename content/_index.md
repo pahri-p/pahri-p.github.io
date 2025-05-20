@@ -1,0 +1,1 @@
+Iniatilize Hugo site
