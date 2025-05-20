@@ -2,3 +2,7 @@ baseURL = 'https://pahper.github.io/'
 languageCode = 'en-us'
 title = 'Simple Blog'
 theme = 'basic'
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
