@@ -1,6 +1,6 @@
 +++
 date = '2025-05-20T14:26:56Z'
-draft = false
+draft = true
 title = 'Tutorial Konfigurasi RouterOS'
 +++
 
@@ -39,5 +39,5 @@ Hidupkan hotspot pada smartphone (pastikan itu memiliki akses Internet), dan
 jalankan lagi WinBox. Setelah berhasil terkoneksi, klik menu **Terminal**, kemudian
 langkah selanjutnya adalah:
 
-Langkah 1
-: Untuk ..., jalankan
+Langkah 1 (Interface bridge)
+: Jalankan perintah ini: 
