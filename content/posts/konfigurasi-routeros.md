@@ -1,8 +1,8 @@
-+++
-date = '2025-05-20T14:26:56Z'
-draft = true
-title = 'Tutorial Konfigurasi RouterOS'
-+++
+---
+date: 2025-05-20T14:26:56Z
+draft: true
+title: Tutorial Konfigurasi RouterOS
+---
 
 Postingan ini berisi tutorial mengkonfigurasi Mikrotik RouterOS untuk memungkinkan
 komunikasi antarhos, menghubungkan LAN dengan internet, memblokir situs-web, dan
