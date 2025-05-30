@@ -1,3 +1,9 @@
 [submodule "themes/ananke"]
 	path = themes/ananke
 	url = https://github.com/theNewDynamic/gohugo-theme-ananke.git
+[submodule "hugo-xmin"]
+	path = hugo-xmin
+	url = https://github.com/yihui/hugo-xmin
+[submodule "themes/XMin"]
+	path = themes/XMin
+	url = https://github.com/yihui/hugo-xmin.git

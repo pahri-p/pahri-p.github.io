@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My New Hugo Site</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Konfigurasi RouterOS</title>
+      <link>http://localhost:1313/posts/konfigurasi_routeros/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/konfigurasi_routeros/</guid>
+      <description>&lt;h2&gt;Pendahuluan&lt;/h2&gt;&#xA;&#xA;&lt;p&gt;&#xA;  Ini adalah postingan tentang membangun LAN dengan router&#xA;  Mikrotik yang ber-OS RouterOS. LAN yang akan dibangun terdiri&#xA;  dari 4 komputer Windows, 1 router, dan 1 perangkat seluler.&#xA;  Empat komputer akan dihubungkan dengan satu router, dan router&#xA;  tersebut akan dihubungkan pada perangkat seluler yang memiliki&#xA;  akses Internet. Koneksi antara komputer dan router menggunakan&#xA;  kabel, sedangkan koneksi anatara router dengan perangkat seluler&#xA;  menggunakan nirkabel.&#xA;&lt;/p&gt;&#xA;&#xA;&lt;p&gt;&#xA;  Objektif membangun LAN ini adalah &lt;em&gt;memungkinkan&lt;/em&gt; empat&#xA;  komputer untuk saling berkomunikasi (mengirim dan menerima data)&#xA;  dengan perantara router dan untuk mengakses Internet dengan&#xA;  menghubungkan router dengan perangkat seluler. Kemudian setelah&#xA;  kedua itu, membatasi bandwith pada LAN, dan membatasi empat&#xA;  komputer tersebut untuk mengakses sumber-daya (seperti situs-web) &#xA;  tertentu pada LAN atau Internet.&#xA;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
