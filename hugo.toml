@@ -1,8 +1,0 @@
-baseURL = 'https://pahper.github.io/'
-languageCode = 'id'
-title = 'Blog'
-theme = 'XMin'
-
-[caches]
-  [caches.images]
-    dir = ':cacheDir/images'
