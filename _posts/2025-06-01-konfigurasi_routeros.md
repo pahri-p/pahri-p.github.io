@@ -47,7 +47,7 @@ pada postingan ini, menggunakan CLI.
 
 Tutorial Konfigurasi RouterOS
 
-Unduh WinBox di [https://mikrotik.com/download](situs-web resmi), 
+Unduh WinBox di [situs-web resmi](https://mikrotik.com/download), 
 kemudian jalankan. Pada WinBox, isikan alamat MAC atau alamat
 IP router, dan username dan password, kemudian klik **Connect**.
 
