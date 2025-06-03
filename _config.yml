@@ -19,11 +19,15 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Blog
-email: ""
-description: >- # this means to ignore newlines until "baseurl:"
-  ""
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://pahper.github.io/" 
+author:
+  name: Pahri Permana
+  email: "texzsh@gmail.com"
+minima:
+  nav_pages:
+    - about.md
+
 # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings

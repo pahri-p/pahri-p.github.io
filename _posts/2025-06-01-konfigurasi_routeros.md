@@ -4,24 +4,15 @@ title: "Konfigurasi RouterOS"
 author: "Pahri Permana"
 ---
 
-## Pendahuluan
-
-Ini adalah postingan tentang membangun LAN dengan router
-Mikrotik yang ber-OS RouterOS. LAN yang akan dibangun terdiri
-dari 4 komputer Windows, 1 router, dan 1 perangkat seluler.
-Empat komputer akan dihubungkan dengan satu router, dan router
-tersebut akan dihubungkan pada perangkat seluler yang memiliki
-akses Internet. Koneksi antara komputer dan router menggunakan
-kabel, sedangkan koneksi anatara router dengan perangkat seluler
-menggunakan nirkabel.
-
-Objektif membangun LAN ini adalah *memungkinkan* empat
-komputer untuk saling berkomunikasi (mengirim dan menerima data)
-dengan perantara router dan untuk mengakses Internet dengan
-menghubungkan router dengan perangkat seluler. Kemudian setelah
-kedua itu, membatasi bandwith pada LAN, dan membatasi empat
-komputer tersebut untuk mengakses sumber-daya (seperti situs-web) 
-tertentu pada LAN atau Internet.
+Postingan ini memberikan tutorial mengkonfigurasi RouterOS dari
+router Mikrotik untuk membangun LAN. Router ini adalah Mikrotik
+hAP Lite menggunakan OS RouterOS v6 dengan 4 port Ethernet,
+dan memiliki WAP, firewall, dan switch. LAN terdiri dari
+4 komputer Windows, 1 router, dan 1 ponsel pintar. Komputer
+dihubungkan dengan router, dan router dihubungkan dengan ponsel
+pintar. Ponsel tersebut memiliki koneksi Internet melalui ISP 
+seluler, dan meng-tether koneksi tersebut kepada router supaya LAN
+memiliki akses Internet.
 
 ## Persiapan
 
@@ -36,7 +27,7 @@ Pada postingan ini, komputer dihubungkan pada router dengan
 memasangkan kabel Ethernet pada port komputer dan router.
 Kemudian mengkonfigurasi router untuk memberikan informasi
 konfigurasi pada komputer yang terhubung, sehingga komputer
-dapat mengirim dan dan menerima data. 
+dapat mengirim dan dan menerima data.
 
 Untuk mengkonfigurasi router yang ber-OS RouterOS, maka RouterOS
 harus diakses terlebih dahulu. Untuk mengakses RouterOS, dapat
@@ -45,60 +36,9 @@ atau menggunakan GUI melalui WinBox atau WebFig. CLI lebih
 sederhana, tetapi GUI lebih familiar bagi kebanyakan orang. Maka
 pada postingan ini, menggunakan CLI.
 
-Tutorial Konfigurasi RouterOS
+## Tutorial Konfigurasi RouterOS
 
-Unduh WinBox di [situs-web resmi](https://mikrotik.com/download), 
+Unduh WinBox di [situs-web resmi](https://mikrotik.com/download),
 kemudian jalankan. Pada WinBox, isikan alamat MAC atau alamat
 IP router, dan username dan password, kemudian klik **Connect**.
-
-    <h2>Obselete Content!</h2>
-    <p>
-      Postingan ini berisi tutorial mengkonfigurasi Mikrotik RouterOS untuk 
-      memungkinkan komunikasi antarhos, menghubungkan LAN dengan internet, 
-      memblokir situs-web, dan membatasi bandwidth maksimal. RouterOS sendiri
-      adalah sistem operasi yang dikembangkan oleh Mikrotik, perusahaan Latvia,
-      untuk perangkat keras jaringannya, RouterBoard.
-    </p>
-
-    <p>
-      Router Mikrotik yang digunakan untuk membangun LAN ini adalah hAP Lite, 
-      dengan RouterOS v6. Router ini memiliki empat port Ethernet dan mendukung 
-      koneksi nirkabel (Wi-Fi). Karena itu, *empat* komputer desktop yang 
-      dihubungkan secara kabel dengan router dijadikan hos; router, kemudian, 
-      untuk mendapatkan koneksi Internet, dihubungkan secara nirkabel dengan 
-      perangkat seluler yang memiliki akses Internet dari ISP seluler.
-    </p>
-
-    <p> 
-      Cara yang paling sederhana untuk mengkonfigurasi RouterOS adalah dengan 
-      menggunakan CLI (command-line interface) melalui SSH (secure-shell), WinBox, 
-      atau WebFig. Pada tutorial ini, menggunakan WinBox. Sebelum itu, unduh dulu 
-      utility tersebut di <a href="https://mikrotik.com/download">situs web 
-      Mikrotik</a>. Kemudian, hubungkan desktop dengan router melalui port Ethernet
-      kecuali ether1. Setelah itu, jalankan WinBox, pilih router melalui alamat
-      MAC-nya, dan klik **Connect**. Terakhir, reset konfigurasi RouterOS dengan, 
-      pada WinBox, pergi pada **Terminal** dan jalankan perintah ini:
-    </p>
-
-    <code>
-        /system reset-configuration no-defaults=yes skip-backup=yes
-    </code>
-
-    <p>
-      Kemudian klik **Enter**, ketik "y", dan klik **Enter**. Terakhir, pada Windows 
-      Start Menu, cari
-    </p>
-
-    <p><em>next ...</em></p>
-
-    <p>
-      Hidupkan hotspot pada smartphone (pastikan itu memiliki akses Internet), 
-      dan jalankan lagi WinBox. Setelah berhasil terkoneksi, klik menu <strong>
-      Terminal</strong>, kemudian langkah selanjutnya adalah:
-    </p>
-
-    <dl>
-      <dt>Langkah 1 (Interface bridge)</dt>
-      <dd>Jalankan perintah ini:</dd>
-    </dl>
 
