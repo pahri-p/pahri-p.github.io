@@ -2,4 +2,4 @@
 
 Link to some post:
 
-- [Tutotial](/blog/tutorial.md)
+- [Tutorial](/blog/tutorial)
