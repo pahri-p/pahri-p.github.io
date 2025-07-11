@@ -1,3 +1,6 @@
 ## Landing page
 
-Some little paragraph.
+Link to other pages:
+
+- [Home](/)
+- [Blog](/blog)
